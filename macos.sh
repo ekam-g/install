@@ -30,8 +30,6 @@ brew install --cask librewolf
 
 brew install --cask alacritty
 
-mv -r alacritty ~/.config/
-
 brew install --cask aldente
 
 brew install --cask raycast
@@ -50,9 +48,19 @@ brew install --cask oracle-jdk
 
 brew install --cask amethyst
 
+brew install yabai
+
 brew update 
 
 brew upgrade
+
+mv -r alacritty ~/.config/
+
+mv -r iterm2 ~/.config/
+
+mv -r yabai ~/.config/
+
+mv -r raycast ~/.config/
 
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
